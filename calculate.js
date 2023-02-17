@@ -11,7 +11,7 @@ function calculate(type, value){
         var value_campo = eval(document.getElementById('result').value);
         document.getElementById('result').value = value_campo;
       }
-    } else if (tipo === 'value') {
+    } else if (type === 'value') {
       document.getElementById('result').value += value;
     }
 }
